@@ -84,8 +84,11 @@ Imports various libraries and modules necessary for data manipulation, visualiza
  - Checking for missing values
  - Analyzing the distribution of certain categorical columns.
 ### Data visualization
+Perform a comprehensive exploratory data analysis (EDA) using a combination of histograms, KDE plots, bar charts, box plots, scatter plots, and geospatial visualizations. This analysis provides deep insights into customer demographics, behavior, and churn patterns, which can be useful for developing targeted strategies to improve customer retention and satisfaction.
 ### Encoding
+Encode the specified categorical columns in the DataFrame into numerical values, which are often required for machine learning models that cannot handle categorical data directly. The mappings dictionary retains the mapping information, which can be useful for interpreting the encoded values or for inverse transformations if needed.
 ### Separating Features and Targets
+Prepare the data for machine learning by separating the features (input variables) and the target variable (output variable). The features X contain all the relevant information needed to make predictions, while y contains the values that the model aims to predict. This separation is a common practice in machine learning to facilitate model training and evaluation.
 ### Scaling the data
 ### Split data into training and testing data
 ### Model training - Random Forest Classifier
