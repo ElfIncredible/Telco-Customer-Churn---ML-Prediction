@@ -7,6 +7,15 @@ This initiative aims to identify customers who are likely to leave our services,
   - [Install dependencies](#install-dependencies)
   - [Data collection and processing](#data-collection-and-processing)
   - [Data visualization](#data-visualization)
+  - [Encoding](#encoding)
+  - [Separating Features and Targets](#separating-features-and-targets)
+  - [Scaling the data](#scaling-the-data)
+  - [Split data into training and testing data](#split-data-into-training-and-testing-data)
+  - [Model training - Random Forest Classifier](#model-training---random-forest-classifier)
+  - [Model Prediction](#model-prediction)
+  - [Model Evaluation](#model-evaluation)
+  - [Feature Importance](#feature-importance)
+  - [Building a predictive system](#building-a-predictive-system)
 ## Project Overview
 The primary objectives of this project are:
 - Develop a machine learning model to predict customer churn with high accuracy.
@@ -54,3 +63,12 @@ find the dataset [here](https://drive.google.com/file/d/190TNAVQX7b8mXUfQmrzqrzi
 ### Install dependencies
 ### Data collection and processing
 ### Data visualization
+### Encoding
+### Separating Features and Targets
+### Scaling the data
+### Split data into training and testing data
+### Model training - Random Forest Classifier
+### Model Prediction
+### Model Evaluation
+### Feature Importance
+### Building a predictive system
