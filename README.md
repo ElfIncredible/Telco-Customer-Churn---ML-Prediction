@@ -116,7 +116,6 @@ Several important insights regarding customer churn have been uncovered as a res
 **1. High Churn Rate in the First Month**
 
 *Finding:* 
-
 A significant portion of customers churn within the first month, but those who stay beyond this period are likely to remain for a much longer duration.
 
 *Mitigation Strategies:*
@@ -129,7 +128,6 @@ A significant portion of customers churn within the first month, but those who s
 **2. Monthly Charges and Dependent Status**
 
 *Finding:* 
-
 Customers with dependents generally pay less monthly, and those without dependents tend to have higher monthly charges. Customers with higher charges generally stay longer.
 
 *Mitigation Strategies:*
@@ -143,7 +141,6 @@ Customers with dependents generally pay less monthly, and those without dependen
 **3. Contract Types and Churn**
 
 *Finding:* 
-
 The majority of customers are on Month-to-Month contracts, and these customers churn at higher rates.
 
 *Mitigation Strategies:*
@@ -156,7 +153,8 @@ The majority of customers are on Month-to-Month contracts, and these customers c
 
 **4. Impact of Senior Citizenship and Payment Methods**
 
-*Finding:* Senior citizens generally pay more monthly and might be targeted differently. Electronic Check users have a higher churn rate.
+*Finding:* 
+Senior citizens generally pay more monthly and might be targeted differently. Electronic Check users have a higher churn rate.
 
 *Mitigation Strategies:*
 
@@ -167,7 +165,8 @@ The majority of customers are on Month-to-Month contracts, and these customers c
 
 **5. Internet Service Types and Churn**
 
-*Finding:* Fiber optic internet users have higher churn rates compared to DSL and no internet service users.
+*Finding:* 
+Fiber optic internet users have higher churn rates compared to DSL and no internet service users.
 
 *Mitigation Strategies:*
 
@@ -176,7 +175,8 @@ The majority of customers are on Month-to-Month contracts, and these customers c
 
 **6. General Observations**
 
-*Finding:* Customers with no dependents have the highest churn rates, and there are high concentrations of customers in major cities.
+*Finding:* 
+Customers with no dependents have the highest churn rates, and there are high concentrations of customers in major cities.
 
 *Mitigation Strategies:*
 
