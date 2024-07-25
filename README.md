@@ -94,7 +94,12 @@ Standardize the numerical features in the DataFrame X, ensuring that each featur
 ### Split data into training and testing data
 Split the standardized feature set and the target variable into training and testing subsets, with 80% of the data used for training the machine learning model and 20% used for testing its performance. The random_state parameter ensures that the split is reproducible.
 ### Model training - Random Forest Classifier
+Initialize a Random Forest Classifier with a fixed random seed for reproducibility and then train this model using the training data (X_train and y_train). The trained model can then be used to make predictions on new data.
 ### Model Prediction
 ### Model Evaluation
+Evaluate the performance of a classification model using several metrics and visualizations.
+- *classification_report* provides a comprehensive evaluation of the model’s performance.
+- *roc_auc_score* quantifies the model's ability to discriminate between positive and negative classes.
+- *ROC curve plot* visualizes the trade-off between true and false positive rates across different thresholds and provides a graphical representation of the model’s performance.
 ### Feature Importance
 ### Building a predictive system
