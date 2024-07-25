@@ -61,7 +61,28 @@ find the dataset [here](https://drive.google.com/file/d/190TNAVQX7b8mXUfQmrzqrzi
 - *Churn Reason:* A customer’s specific reason for leaving the company. Directly related to Churn Category.
 ## Machine Learning Prediction
 ### Install dependencies
+Imports various libraries and modules necessary for data manipulation, visualization, geographic data handling, machine learning, and model evaluation.
+  - *pandas (pd):* Used for data manipulation and analysis, particularly with dataframes.
+  - *numpy (np):* Provides support for numerical operations, including array handling.
+  - *seaborn (sns):* A statistical data visualization library based on matplotlib.
+  - *matplotlib.pyplot (plt):* A plotting library used for creating static, interactive, and animated visualizations.
+  - *shapely.geometry.Point:* Used for creating point geometries.
+  - *geopandas (gpd):* Extends pandas to allow spatial operations on geometric types.
+  - *contextily (ctx):* Adds basemaps to geospatial visualizations.
+  - *sklearn.preprocessing.LabelEncoder:* Encodes target labels with values between 0 and n_classes-1.
+  - *sklearn.model_selection.train_test_split:* Splits arrays or matrices into random train and test subsets.
+  - *sklearn.preprocessing.StandardScaler:* Standardizes features by removing the mean and scaling to unit variance.
+  - *sklearn.ensemble.RandomForestClassifier:* A machine learning algorithm for classification that uses an ensemble of decision trees.
+  - *sklearn.metrics.classification_report:* Builds a text report showing the main classification metrics.
+  - *sklearn.metrics.roc_auc_score:* Computes Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores.
+  - *sklearn.metrics.roc_curve:* Computes Receiver Operating Characteristic (ROC) curve.
 ### Data collection and processing
+ Perform initial data exploration, including:
+ - Loading the data
+ - Displaying a sample
+ - Summarizing statistics
+ - Checking for missing values
+ - Analyzing the distribution of certain categorical columns.
 ### Data visualization
 ### Encoding
 ### Separating Features and Targets
