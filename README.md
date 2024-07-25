@@ -96,10 +96,16 @@ Split the standardized feature set and the target variable into training and tes
 ### Model training - Random Forest Classifier
 Initialize a Random Forest Classifier with a fixed random seed for reproducibility and then train this model using the training data (X_train and y_train). The trained model can then be used to make predictions on new data.
 ### Model Prediction
+Prepare the results of the model's predictions for further evaluation and analysis, such as calculating performance metrics or generating ROC curves.
 ### Model Evaluation
 Evaluate the performance of a classification model using several metrics and visualizations.
 - *classification_report* provides a comprehensive evaluation of the model’s performance.
 - *roc_auc_score* quantifies the model's ability to discriminate between positive and negative classes.
 - *ROC curve plot* visualizes the trade-off between true and false positive rates across different thresholds and provides a graphical representation of the model’s performance.
 ### Feature Importance
+This process helps in understanding which features contribute the most to the predictions made by the Random Forest model, guiding feature selection and model interpretation.
+- *Calculates Feature Importance:* Uses the feature_importances_ attribute from the trained Random Forest model to get the importance scores of each feature.
+- *Creates a DataFrame:* Organizes the feature names and their corresponding importance scores into a DataFrame.
+- *Sorts and Displays:* Sorts the DataFrame by feature importance in descending order and prints it to highlight which features are most influential in the model.
 ### Building a predictive system
+Handle the complete process of preprocessing a new input for prediction and then uses the trained Random Forest model to determine if a customer is likely to churn. It ensures that the input data is formatted and scaled in a way that matches the model's training data, providing a reliable prediction based on the new data provided.
