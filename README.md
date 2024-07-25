@@ -16,6 +16,7 @@ This initiative aims to identify customers who are likely to leave our services,
   - [Model Evaluation](#model-evaluation)
   - [Feature Importance](#feature-importance)
   - [Building a predictive system](#building-a-predictive-system)
+- [Summary of Findings and Mitigation Strategies](#summary-of-findings-and-mitigation-strategies)
 ## Project Overview
 The primary objectives of this project are:
 - Develop a machine learning model to predict customer churn with high accuracy.
@@ -109,3 +110,4 @@ This process helps in understanding which features contribute the most to the pr
 - *Sorts and Displays:* Sorts the DataFrame by feature importance in descending order and prints it to highlight which features are most influential in the model.
 ### Building a predictive system
 Handle the complete process of preprocessing a new input for prediction and then use the trained Random Forest model to determine if a customer is likely to churn. It ensures that the input data is formatted and scaled in a way that matches the model's training data, providing a reliable prediction based on the new data provided.
+## Summary of Findings and Mitigation Strategies
