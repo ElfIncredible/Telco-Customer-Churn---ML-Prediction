@@ -90,7 +90,9 @@ Encode the specified categorical columns in the DataFrame into numerical values,
 ### Separating Features and Targets
 Prepare the data for machine learning by separating the features (input variables) and the target variable (output variable). The features X contain all the relevant information needed to make predictions, while y contains the values that the model aims to predict. This separation is a common practice in machine learning to facilitate model training and evaluation.
 ### Scaling the data
+Standardize the numerical features in the DataFrame X, ensuring that each feature has a mean of 0 and a standard deviation of 1. This standardization is important for many machine learning algorithms, which perform better when the input features are on a similar scale.
 ### Split data into training and testing data
+Split the standardized feature set and the target variable into training and testing subsets, with 80% of the data used for training the machine learning model and 20% used for testing its performance. The random_state parameter ensures that the split is reproducible.
 ### Model training - Random Forest Classifier
 ### Model Prediction
 ### Model Evaluation
