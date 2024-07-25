@@ -4,7 +4,7 @@ This initiative aims to identify customers who are likely to leave our services,
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Machine Learning Prediction](#machine-learning-prediction)
-  - [Install dependencies](#install-dependencies)
+  - [1. Dependencies](#1.-dependencies)
 ## Project Overview
 The primary objectives of this project are:
 - Develop a machine learning model to predict customer churn with high accuracy.
@@ -49,6 +49,6 @@ find the dataset [here](https://drive.google.com/file/d/190TNAVQX7b8mXUfQmrzqrzi
 - *CLTV:* Customer Lifetime Value. A predicted CLTV is calculated using corporate formulas and existing data. The higher the value, the more valuable the customer. High value customers should be monitored for churn.
 - *Churn Reason:* A customer’s specific reason for leaving the company. Directly related to Churn Category.
 ## Machine Learning Prediction
-  - Install dependencies
-  - Data collection & processing
-  - Data Visualization
+### 1. Dependencies
+### 2. Data collection & processing
+### 3. Data visualization
