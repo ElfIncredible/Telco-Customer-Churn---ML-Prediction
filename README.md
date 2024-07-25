@@ -4,6 +4,7 @@ This initiative aims to identify customers who are likely to leave our services,
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Machine Learning Prediction](#machine-learning-prediction)
+  - [Install dependencies](#install-dependencies)
 ## Project Overview
 The primary objectives of this project are:
 - Develop a machine learning model to predict customer churn with high accuracy.
